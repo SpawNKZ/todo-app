@@ -1,12 +1,12 @@
-# REST API Для Создания TODO Списков на Go
+# REST API to create TODO lists
 
-### Для запуска приложения:
+### To run app:
 
 ```
 make build && make run
 ```
 
-Если приложение запускается впервые, необходимо применить миграции к базе данных:
+If you run app in a first time, you need to apply migrations to database:
 
 ```
 make migrate
